@@ -1,0 +1,127 @@
+* {
+  background-color: #212529;
+  color: #f8f9fa;
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: 40rem;
+}
+
+.mr-5 {
+  color: #f8f9fa;
+  margin-left: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.mr-5:hover {
+  color: #adb5bd;
+}
+
+.btn-header {
+  display: inline-flex;
+  align-items: center;
+  color: #f8f9fa;
+  background-color: #b197fc;
+  color: #212529;
+  border: 0;
+  padding: 10px 16px 10px 16px;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-header:hover {
+  background-color: #9775fa;
+  color: #f8f9fa;
+  cursor: pointer;
+}
+
+.title-font1 {
+  width: 510px;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: Helvetica, sans-serif;
+  font-size: 5em;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.title-font2 {
+  font-size: 3em;
+  margin-bottom: 5px;
+  color: #b197fc;
+  font-weight: bold;
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+  margin-bottom: 40px;
+  font-weight: 300;
+  line-height: 1.9;
+}
+
+.ml-4 {
+  display: inline-flex;
+  color: #f8f9fa;
+  border: 0;
+  background-color: #b197fc;
+  padding: 10px;
+  border-radius: 25px;
+  width: 100px;
+  justify-content: center;
+  font-weight: bold;
+}
+.ml-4:hover {
+  display: inline-flex;
+  color: #212529;
+  border: 0;
+  background-color: #9775fa;
+  padding: 10px;
+  border-radius: 25px;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.ml-5 {
+  margin-left: 100px;
+  display: inline-flex;
+  color: #212529;
+  border: 0;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 25px;
+  width: 100px;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.ml-5:hover {
+  display: inline-flex;
+  color: #f8f9fa;
+  border: 0;
+  background-color: #adb5bd;
+  padding: 10px;
+  border-radius: 25px;
+  justify-content: center;
+  font-weight: bold;
+}
